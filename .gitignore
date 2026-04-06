@@ -1,0 +1,37 @@
+# Environment Variables (IMPORTANT - Never commit secrets)
+.env
+.env.local
+*.env
+
+# Virtual Environment (IMPORTANT - Don't commit venv)
+env/
+venv/
+ENV/
+.venv
+
+# Python Cache (Automatically generated)
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.Python
+
+# IDE Editors (Local preferences)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database Files (Local data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs (Generated at runtime)
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
